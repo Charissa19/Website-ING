@@ -5,7 +5,7 @@ body
     font-style: normal;
 }
 
-.topnav
+.header
 {
    
    overflow: hidden;
@@ -13,7 +13,7 @@ body
     
 }
 
-.topnav a
+.header a
 {
     float: left;
     display: block;
@@ -24,16 +24,16 @@ body
     font-size: 17px;
     border-bottom: 3px solid transparent;
   }
-  .topnav a:hover {
-    border-bottom: 3px solid #f60;
-  }
-  
-  .topnav a.active {
-    border-bottom: 3px solid #f60;
-  }
+    .header a:hover {
+        border-bottom: 3px solid #f60;
+    }
+
+    .header a.active {
+        border-bottom: 3px solid #f60;
+    }
 
 
-div.fixed
+div.topright
 {
     position: fixed;
     bottom: 890px;
@@ -41,12 +41,10 @@ div.fixed
     width: 300px;
 }
 
-div.fixed:hover
-{
-    text-decoration: underline;
-    cursor: pointer;
-
-}
+    div.topright:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
 button
 {
     background-color: #f60;
@@ -102,79 +100,4 @@ ul {
   }
 
 
-.fraude1 {
-  position: absolute;
-left: 400px;
-bottom: 500px;
-  background-color: lightgray;
-  color: black;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-  block-size: 200px;
-}
 
-.fraude2
-{
-  position: absolute;
-  left: 735px;
-  bottom: 500px;
-    background-color: lightgray;
-    color: black;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-    block-size: 200px;
-}
-
-.fraude3
-{
-  position: absolute;
-  left: 400px;
-  bottom: 340px;
-    background-color: lightgray;
-    color: black;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-    block-size: 200px;
-}
-
-.fraude4
-{
-  position: absolute;
-  left: 795px;
-  bottom: 294px;
-    background-color: lightgray;
-    color: black;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-    block-size: 200px;
-}
-
-.fraude5
-{
-  position: absolute;
-  left: 400px;
-  bottom: 180px;
-    background-color: lightgray;
-    color: black;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-    block-size: 200px;
-}
-
-.fraude6
-{
-  position: absolute;
-  left: 795px;
-  bottom: 90px;
-    background-color: lightgray;
-    color: black;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-    block-size: 200px;
-}
