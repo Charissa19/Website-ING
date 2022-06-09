@@ -1,0 +1,180 @@
+body
+{
+    background-color: white;
+    align-items: center;
+    font-style: normal;
+}
+
+.topnav
+{
+   
+   overflow: hidden;
+   background-color: lightgrey;
+    
+}
+
+.topnav a
+{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  .topnav a:hover {
+    border-bottom: 3px solid #f60;
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid #f60;
+  }
+
+
+div.fixed
+{
+    position: fixed;
+    bottom: 890px;
+    right: 0px;
+    width: 300px;
+}
+
+div.fixed:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+button
+{
+    background-color: #f60;
+    color: white;
+    border: none;
+
+    position: absolute;
+    bottom: 890px;
+    right: 50px;
+    width: 100px;
+    border-radius: 12px;
+    
+    
+}
+button:hover
+{
+    background-color: white;
+    color: #f60;
+    border: none;
+}
+
+ul {
+    position: absolute;
+    bottom: 800px;
+    right: 500px;
+    width: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+
+  }
+  
+  li a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+  li a.active
+  {
+    text-decoration: underline;
+  }
+
+
+.fraude1 {
+  position: absolute;
+left: 400px;
+bottom: 500px;
+  background-color: lightgray;
+  color: black;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+  block-size: 200px;
+}
+
+.fraude2
+{
+  position: absolute;
+  left: 735px;
+  bottom: 500px;
+    background-color: lightgray;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    block-size: 200px;
+}
+
+.fraude3
+{
+  position: absolute;
+  left: 400px;
+  bottom: 340px;
+    background-color: lightgray;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    block-size: 200px;
+}
+
+.fraude4
+{
+  position: absolute;
+  left: 795px;
+  bottom: 294px;
+    background-color: lightgray;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    block-size: 200px;
+}
+
+.fraude5
+{
+  position: absolute;
+  left: 400px;
+  bottom: 180px;
+    background-color: lightgray;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    block-size: 200px;
+}
+
+.fraude6
+{
+  position: absolute;
+  left: 795px;
+  bottom: 90px;
+    background-color: lightgray;
+    color: black;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    block-size: 200px;
+}
