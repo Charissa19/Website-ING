@@ -1,103 +1,123 @@
-body
-{
+body {
     background-color: white;
     align-items: center;
     font-style: normal;
 }
 
-.header
-{
-   
-   overflow: hidden;
-   background-color: lightgrey;
-    
+.header {
+    overflow: hidden;
+    background-color: lightgrey;
 }
 
-.header a
-{
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    border-bottom: 3px solid transparent;
-  }
-    .header a:hover {
-        border-bottom: 3px solid #f60;
+    .header a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        border-bottom: 3px solid transparent;
     }
 
-    .header a.active {
-        border-bottom: 3px solid #f60;
-    }
+        .header a:hover {
+            border-bottom: 3px solid #f60;
+        }
+
+        .header a.active {
+            border-bottom: 3px solid #f60;
+        }
 
 
-div.topright
-{
-    position: fixed;
-    bottom: 890px;
-    right: 0px;
+div.topright {
     width: 300px;
+    position: absolute;
+    top: 8px;
+    right: 16px;
 }
 
     div.topright:hover {
         text-decoration: underline;
         cursor: pointer;
     }
-button
-{
+
+button {
     background-color: #f60;
     color: white;
     border: none;
-
     position: absolute;
-    bottom: 890px;
-    right: 50px;
-    width: 100px;
+    top: 8px;
+    right: 100px;
     border-radius: 12px;
-    
-    
 }
-button:hover
-{
-    background-color: white;
-    color: #f60;
-    border: none;
-}
+
+    button:hover {
+        background-color: white;
+        color: #f60;
+        border: none;
+    }
 
 ul {
-    position: absolute;
-    bottom: 800px;
-    right: 500px;
     width: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
-  
-  li {
+    background-color: white;
+}
+
+li {
     float: left;
-  }
-  
-  li a {
-    display: block;
-    color: black;
+}
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+    }
+
+        li a:hover {
+            text-decoration: underline;
+            color: black;
+        }
+
+        li a.active {
+            text-decoration: underline;
+        }
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: solid lightgrey;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    font-size: 30px;
     text-align: center;
-    padding: 14px 16px;
+}
 
-  }
-  
-  li a:hover {
-    text-decoration: underline;
-    color: black;
-  }
+h2.headertekst {
+    text-align: center;
+}
 
-  li a.active
-  {
-    text-decoration: underline;
-  }
+.button2 {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
 
 
