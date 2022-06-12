@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #F5F5F5;
     align-items: center;
     font-style: normal;
 }
@@ -45,6 +45,7 @@ body {
 .under-top-nav {
     color: #333;
     font-size: 1rem;
+    background-color: white;
 }
 
 .navbar .nav-link{
@@ -69,8 +70,6 @@ body {
     height: 275px;
     padding-top: 48px;
     padding-bottom: 48px;
-    margin-top: 24px;
-    margin-bottom: 24px;
     color: white;
 }
 
@@ -103,6 +102,56 @@ body {
     cursor: pointer;
     background-color: white;
 }
+
+.main-content {
+    background-color: #F5F5F5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.content-cards {
+    padding-top: 20px;
+}
+
+.card {
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.card-content-incard {
+    padding: 20px;
+}
+
+    .card-content-incard h2{
+        color: #FF6200;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .card-content-incard p {
+        font-size: 16px;
+        margin-bottom: 24px;
+    }
+
+    .card-content-incard a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    .card-content-incard a:hover {
+        text-decoration: underline;
+        color: #333;
+    }
+
+    .card-sub {
+        color: #FF6200;
+        font-size: 21px;
+        padding-bottom: 15px;
+    }
+
+    .no-spacing {
+        margin-bottom: 0px !important;
+    }
 
 .header {
     overflow: hidden;
@@ -229,11 +278,11 @@ h2.headertekst {
 
 .footer {
     background-color: #EBEBEB;
+    border-top: white 2px solid;
     font-size: .875rem;
     line-height: 1.5;
     padding-top: 32px;
     padding-bottom: 7px ;
-    margin-top: 50px;
     margin-left: 0px;
     margin-right: 0px;
 }
