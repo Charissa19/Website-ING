@@ -153,6 +153,11 @@ body {
         margin-bottom: 0px !important;
     }
 
+.moving-images h2 {
+    font-weight: 700;
+    color: #FF6200;
+}
+
 .header {
     overflow: hidden;
     background-color: lightgrey;
