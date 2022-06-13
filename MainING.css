@@ -158,6 +158,10 @@ body {
     color: #FF6200;
 }
 
+.carousel-item img {
+    object-fit: fill;
+}
+
 .header {
     overflow: hidden;
     background-color: lightgrey;
